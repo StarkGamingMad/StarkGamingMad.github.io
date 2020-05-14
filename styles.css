@@ -74,6 +74,8 @@
 			vertical-align: middle;
 		}
 
+			.btn_below { display: none; }
+
 		iframe { margin-bottom: -4px; }
 
 	footer {
@@ -113,6 +115,8 @@
 }
 
 @media screen and (max-width: 600px){
+	body { padding : 0 10px; }
+
 		.logo {
 			font-size: 41pt;
 			margin: -22px 0 -22px 60px;
@@ -130,4 +134,9 @@
 			display: block;
 			padding: 20px;
 		}
+
+			.btn_below { display: inline; }
+			.btn_right { display: none; }
+
+		.overlay { background-size: 2098px; }
 }
