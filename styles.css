@@ -138,5 +138,7 @@
 			.btn_below { display: inline; }
 			.btn_right { display: none; }
 
+	footer { margin: 30px auto 145px; }
+
 		.overlay { background-size: 2098px; }
 }
