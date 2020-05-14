@@ -142,3 +142,9 @@
 
 		.overlay { background-size: 2098px; }
 }
+
+@media screen and (orientation: landscape) {
+	footer { margin: 30px auto 145px; }
+
+		.overlay { background-size: 2098px; }
+}
